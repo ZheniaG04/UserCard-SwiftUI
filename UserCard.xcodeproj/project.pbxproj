@@ -13,6 +13,9 @@
 		EFC0F12E25A75E8D0027A2F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC0F12D25A75E8D0027A2F6 /* Preview Assets.xcassets */; };
 		EFC0F13925A75E8D0027A2F6 /* UserCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC0F13825A75E8D0027A2F6 /* UserCardTests.swift */; };
 		EFC0F14425A75E8D0027A2F6 /* UserCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC0F14325A75E8D0027A2F6 /* UserCardUITests.swift */; };
+		EFC0F15625A762960027A2F6 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFC0F15525A762960027A2F6 /* Pacifico-Regular.ttf */; };
+		EFC0F15B25A765340027A2F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC0F15A25A765340027A2F6 /* LaunchScreen.storyboard */; };
+		EFC0F16325A76CE00027A2F6 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC0F16225A76CE00027A2F6 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		EFC0F13F25A75E8D0027A2F6 /* UserCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC0F14325A75E8D0027A2F6 /* UserCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCardUITests.swift; sourceTree = "<group>"; };
 		EFC0F14525A75E8D0027A2F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC0F15525A762960027A2F6 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		EFC0F15A25A765340027A2F6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFC0F16225A76CE00027A2F6 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +101,14 @@
 		EFC0F12525A75E8B0027A2F6 /* UserCard */ = {
 			isa = PBXGroup;
 			children = (
+				EFC0F15425A762790027A2F6 /* Fonts */,
 				EFC0F12625A75E8B0027A2F6 /* UserCardApp.swift */,
 				EFC0F12825A75E8B0027A2F6 /* ContentView.swift */,
 				EFC0F12A25A75E8D0027A2F6 /* Assets.xcassets */,
 				EFC0F12F25A75E8D0027A2F6 /* Info.plist */,
 				EFC0F12C25A75E8D0027A2F6 /* Preview Content */,
+				EFC0F15A25A765340027A2F6 /* LaunchScreen.storyboard */,
+				EFC0F16225A76CE00027A2F6 /* InfoView.swift */,
 			);
 			path = UserCard;
 			sourceTree = "<group>";
@@ -128,6 +137,14 @@
 				EFC0F14525A75E8D0027A2F6 /* Info.plist */,
 			);
 			path = UserCardUITests;
+			sourceTree = "<group>";
+		};
+		EFC0F15425A762790027A2F6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EFC0F15525A762960027A2F6 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +250,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFC0F15625A762960027A2F6 /* Pacifico-Regular.ttf in Resources */,
 				EFC0F12E25A75E8D0027A2F6 /* Preview Assets.xcassets in Resources */,
+				EFC0F15B25A765340027A2F6 /* LaunchScreen.storyboard in Resources */,
 				EFC0F12B25A75E8D0027A2F6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFC0F12925A75E8B0027A2F6 /* ContentView.swift in Sources */,
+				EFC0F16325A76CE00027A2F6 /* InfoView.swift in Sources */,
 				EFC0F12725A75E8B0027A2F6 /* UserCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
